@@ -52,3 +52,11 @@ I have no idea why you would want to start it, but if for some reason you do, he
 
 ## API
 In the even stranger case that you want to actually *use* the server, here's all the information you'll need: [API documentation](./api/api.md).
+
+<br/>
+<br/>
+<p align="center">
+    Made by Gabriel Rodríguez
+    <br/>
+    <a href="https://www.gabrielrf.dev">www.gabrielrf.dev</a>
+</p>
