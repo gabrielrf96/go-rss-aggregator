@@ -18,10 +18,16 @@ type ScraperConfig struct {
 	Interval time.Duration
 }
 
+type APIConfig struct {
+	// Number of latest posts to return for the posts endpoint.
+	ReturnPosts int
+}
+
 type Config struct {
 	Port      string
 	DBConnUrl string
 	Scraper   ScraperConfig
+	API       APIConfig
 }
 
 func loadConfig() *Config {
@@ -37,6 +43,9 @@ func loadConfig() *Config {
 			Timeout:   time.Duration(getEnvInt("SCRAPER_TIMEOUT_SECONDS")) * time.Second,
 			Instances: getEnvInt("SCRAPER_INSTANCES"),
 			Interval:  time.Duration(getEnvInt("SCRAPER_INTERVAL_SECONDS")) * time.Second,
+		},
+		API: APIConfig{
+			ReturnPosts: getEnvInt("API_RETURN_POSTS"),
 		},
 	}
 }

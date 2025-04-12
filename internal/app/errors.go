@@ -49,6 +49,6 @@ func NewConflictError(msg string) *APIError {
 func NewNotFoundError(msg string) *APIError {
 	return &APIError{
 		Message:  msg,
-		HttpCode: http.StatusUnprocessableEntity,
+		HttpCode: http.StatusNotFound,
 	}
 }

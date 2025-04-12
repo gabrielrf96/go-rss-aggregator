@@ -28,7 +28,7 @@ func (h *Handler) GetPosts(w http.ResponseWriter, r *http.Request) {
 
 	posts, err := h.a.DB.GetPostsForUser(r.Context(), database.GetPostsForUserParams{
 		UserID: user.ID,
-		Limit:  10,
+		Limit:  int32(h.a.Config.API.ReturnPosts),
 	})
 	if err != nil {
 		response.RespondWithError(w, app.NewInternalError(
