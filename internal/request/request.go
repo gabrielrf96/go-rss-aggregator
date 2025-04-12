@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/RussellLuo/validating/v3"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
 )
 
 const (

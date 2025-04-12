@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/response"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/response"
 )
 
 type HealthzResponse struct {

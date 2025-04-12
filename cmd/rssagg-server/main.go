@@ -1,9 +1,7 @@
 package main
 
-import (
-	rssagg "github.com/gabrielrf96/go-practice-rss-aggregator/internal"
-)
+import "github.com/gabrielrf96/go-rss-aggregator/internal/server"
 
 func main() {
-	rssagg.StartApp()
+	server.StartApp()
 }

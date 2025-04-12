@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/database"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/database"
 	"github.com/google/uuid"
 )
 
-func StartScraping(a *app.App) {
+func startScraping(a *app.App) {
 	log.Printf(
 		"[SCRAPER] Starting scraper for: %v feeds every %v seconds",
 		a.Config.Scraper.Instances,

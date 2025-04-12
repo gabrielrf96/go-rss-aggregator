@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"io"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
 )
 
 type RSSFeed struct {

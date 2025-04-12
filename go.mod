@@ -1,4 +1,4 @@
-module github.com/gabrielrf96/go-practice-rss-aggregator
+module github.com/gabrielrf96/go-rss-aggregator
 
 go 1.24.1
 
