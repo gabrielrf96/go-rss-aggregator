@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	cmd "github.com/gabrielrf96/go-practice-rss-aggregator/cmd/rssagg-cli/command"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/cmd/rssagg-cli/tree"
+	cmd "github.com/gabrielrf96/go-rss-aggregator/cmd/rssagg-cli/command"
+	"github.com/gabrielrf96/go-rss-aggregator/cmd/rssagg-cli/tree"
 )
 
 func main() {

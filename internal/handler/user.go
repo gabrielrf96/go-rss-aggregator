@@ -6,11 +6,11 @@ import (
 	"time"
 
 	v "github.com/RussellLuo/validating/v3"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/auth"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/database"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/request"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/response"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/auth"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/database"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/request"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/response"
 	"github.com/google/uuid"
 )
 

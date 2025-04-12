@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/request"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/response"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/request"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/response"
 	"golang.org/x/crypto/bcrypt"
 )
 

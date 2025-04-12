@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/cmd/rssagg-cli/tree"
+	"github.com/gabrielrf96/go-rss-aggregator/cmd/rssagg-cli/tree"
 )
 
 func RunServer(args []string) error {

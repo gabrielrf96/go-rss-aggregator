@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/database"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/request"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/response"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/database"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/request"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/response"
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 )

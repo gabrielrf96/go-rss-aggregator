@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/app"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/auth"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/handler"
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/request"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/app"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/auth"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/handler"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/request"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
 )

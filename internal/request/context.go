@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gabrielrf96/go-practice-rss-aggregator/internal/database"
+	"github.com/gabrielrf96/go-rss-aggregator/internal/database"
 )
 
 type contextKey string
