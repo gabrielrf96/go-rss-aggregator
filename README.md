@@ -27,9 +27,13 @@ I have no idea why you would want to start it, but if for some reason you do, he
     DB_URL=${DB_DRIVER}://user:pass@localhost:5432/dbname
     ```
 
-4. You should now be able to start the server using the generated binary:
+4. You should now be able to start the server using the generated binary, either directly or via the dev CLI command:
     ```sh
+    # Directly
     ./bin/rssagg-server
+
+    # Via the utility command
+    ./cli run
     ```
 
 5. If you left the default port in the config file, you should now be able to connect to the server on `localhost:8080`. For example, you can call the health status endpoint *(using `curl` or whatever HTTP client you normally use)*:
